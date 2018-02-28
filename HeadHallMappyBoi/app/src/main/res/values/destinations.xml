@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="destinations">
+        <item>Head Hall</item>
+        <item>Old Head Hall</item>
+        <item>CC Jones</item>
+        <item>Science Library (SIL)</item>
+        <item>Harriet Irving Library (HIL)</item>
+        <item>Registrars Office</item>
+        <item>Currie Center (New Gym)</item>
+        <item>Lady BeaverBrook Gym (Old Gym)</item>
+        <item>Student Union Building (SUB)</item>
+        <item>Currie Center (New Gym)</item>
+        <item>Forestry Building</item>
+        <item>Bookstore / Pharmacy</item>
+    </string-array>
+</resources>
