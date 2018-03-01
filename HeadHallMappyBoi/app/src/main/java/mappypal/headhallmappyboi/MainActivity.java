@@ -18,6 +18,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
+    private Button button2;
     private Spinner spinner1;
     private Spinner spinner2;
 
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         button = (Button) findViewById(R.id.button2);
+        button2 = (Button) findViewById(R.id.button3);
         spinner1 = (Spinner) findViewById(R.id.spinner);
         spinner2 = (Spinner) findViewById(R.id.spinner2);
 
@@ -50,6 +52,18 @@ public class MainActivity extends AppCompatActivity {
                         MapsActivity.class);
                 myIntent.putExtra("startLocation", spinner1.getSelectedItem().toString());
                 myIntent.putExtra("destination", spinner2.getSelectedItem().toString());
+                startActivity(myIntent);
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        MapsActivity2.class);
+                //myIntent.putExtra("startLocation", spinner1.getSelectedItem().toString());
+                //myIntent.putExtra("destination", spinner2.getSelectedItem().toString());
                 startActivity(myIntent);
             }
         });
