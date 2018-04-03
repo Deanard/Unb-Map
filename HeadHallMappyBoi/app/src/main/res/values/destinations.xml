@@ -14,5 +14,10 @@
         <item>Currie Center (New Gym)</item>
         <item>Forestry Building</item>
         <item>Bookstore / Pharmacy</item>
+        <item>@string/user_local_1</item>
+        <item>@string/user_local_2</item>
+        <item>@string/user_local_3</item>
+        <item>@string/user_local_4</item>
+        <item>@string/user_local_5</item>
     </string-array>
 </resources>

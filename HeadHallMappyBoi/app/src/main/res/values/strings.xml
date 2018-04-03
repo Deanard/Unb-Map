@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">HeadHallMappyBoi</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_unb">Unb Map</string>
+    <string name="title_head_hall">Head Hall Map</string>
+    <string name="title_add_location">Add Location</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_maps3">Map</string>
+    <string name="user_local_1">Blank</string>
+    <string name="user_local_2">Blank</string>
+    <string name="user_local_3">Blank</string>
+    <string name="user_local_4">Blank</string>
+    <string name="user_local_5">Blank</string>
 </resources>

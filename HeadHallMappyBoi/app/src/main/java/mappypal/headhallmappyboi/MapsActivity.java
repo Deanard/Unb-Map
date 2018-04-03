@@ -156,6 +156,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     Toast toast2 = Toast.makeText(getApplicationContext(), "No Location Service", Toast.LENGTH_SHORT);
                     toast2.show();
                 }
+                break;
+            default:
+                break;
         }
 
         switch (destin) {
@@ -201,6 +204,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             case "Bookstore / Pharmacy":
                 endPoint = bookstore;
+                break;
+            default:
                 break;
 
         }
